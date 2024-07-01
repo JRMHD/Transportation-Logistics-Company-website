@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us | Small's Transportation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Get in touch with Small's Transportation for all your freight transportation needs. Contact us for quotes, service inquiries, or employment opportunities across New England and the Eastern United States.">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo-Pics-_1_.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <header class="site-navbar py-3" role="banner">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-11 col-xl-2">
+                        <a href="{{ url('/') }}">
+                            <img src="images/Logo with slogan in red (1).png" alt="Small's Transportation Logo"
+                                class="img-fluid" style="max-width: 150px; height: auto;">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-10 d-none d-xl-block">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+
+                            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                                <li><a href="{{ url('/') }}">Home</a></li>
+                                <li><a href="{{ url('about') }}">About Us</a></li>
+                                <li><a href="{{ url('services') }}">Services</a></li>
+
+                                <li><a href="{{ url('/') }}">Automotive Services</a>
+                                </li>
+                                <li class="active"><a href="{{ url('contact') }}">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a
+                            href="#" class="site-menu-toggle js-menu-toggle text-white"><span
+                                class="icon-menu h3"></span></a></div>
+
+                </div>
+
+            </div>
+    </div>
+
+    </header>
+
+
+
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_bg_1.jpg);"
+        data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+                    <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Contact Us</h1>
+                    <p class="breadcrumb-custom"><a href="{{ url('/') }}">Home</a> <span class="mx-2">&gt;</span>
+                        <span>Contact</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="site-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form action="#" class="p-5 bg-white">
+                        <div class="row form-group">
+                            <div class="col-md-6 mb-3 mb-md-0">
+                                <label class="text-black" for="fname">First Name</label>
+                                <input type="text" id="fname" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="text-black" for="lname">Last Name</label>
+                                <input type="text" id="lname" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="email">Email</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label class="text-black" for="phone1">Phone Number</label>
+                                <input type="tel" id="phone1" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="7" class="form-control"
+                                    placeholder="Write your notes or questions here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message"
+                                    class="btn btn-primary py-2 px-4 text-white">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="p-4 mb-3 bg-white">
+                        <h3 class="h5 text-black mb-3">Contact Us</h3>
+                        <p><strong>Email:</strong> <a
+                                href="mailto:smallstransportationllc@gmail.com">smallstransportationllc@gmail.com</a>
+                        </p>
+                        <p><strong>Phone:</strong> 304-240-7022</p>
+                        <p><strong>Phone:</strong> 304-782-6650</p>
+                    </div>
+                    <div class="p-4 mb-3 bg-white">
+                        <h3 class="h5 text-black mb-3">More Info</h3>
+                        <p>At Small's Transportation, we are dedicated to providing exceptional transportation services
+                            that go
+                            beyond mere logistics. We prioritize customer satisfaction by delivering on our promises of
+                            safety,
+                            efficiency, and reliability. Our commitment to innovation and continuous improvement ensures
+                            that we meet
+                            the unique needs of each client, adapting seamlessly to an ever-evolving industry landscape.
+                        </p>
+
+                        <p><a href="{{ url('about') }}" class="btn btn-primary px-4 py-2 text-white">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @include('footer')
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
