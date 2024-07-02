@@ -123,21 +123,28 @@
             <div class="col-md-4">
                 <div class="free-quote bg-dark h-100">
                     <h2 class="my-4 heading text-center">Get a Free Quote</h2>
-                    <form method="post">
+                    @if (session('quote-success'))
+                        <div
+                            style="background-color: #d4edda; color: #155724; padding: 15px; margin-top: 20px; border: 1px solid #c3e6cb; border-radius: 4px;">
+                            {{ session('quote-success') }}
+                        </div>
+                    @endif
+                    <form method="POST" action="{{ route('free-quote.submit') }}">
+                        @csrf
                         <div class="form-group">
                             <label for="fq_name">Name</label>
-                            <input type="text" class="form-control btn-block" id="fq_name" name="fq_name"
-                                placeholder="Enter Name">
+                            <input type="text" class="form-control btn-block" id="fq_name" name="name"
+                                placeholder="Enter Name" required>
                         </div>
                         <div class="form-group mb-4">
                             <label for="fq_email">Email</label>
-                            <input type="email" class="form-control btn-block" id="fq_email" name="fq_email"
-                                placeholder="Enter Email">
+                            <input type="email" class="form-control btn-block" id="fq_email" name="email"
+                                placeholder="Enter Email" required>
                         </div>
                         <div class="form-group mb-4">
                             <label for="fq_phone">Phone</label>
-                            <input type="tel" class="form-control btn-block" id="fq_phone" name="fq_phone"
-                                placeholder="Enter Phone">
+                            <input type="tel" class="form-control btn-block" id="fq_phone" name="phone"
+                                placeholder="Enter Phone" required>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-primary text-white py-2 px-4 btn-block"

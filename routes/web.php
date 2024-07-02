@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FreeQuoteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,3 +42,6 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+Route::post('/free-quote', [FreeQuoteController::class, 'submit'])->name('free-quote.submit');
