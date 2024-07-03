@@ -50,8 +50,8 @@
 
                     <div class="col-11 col-xl-2">
                         <a href="{{ url('/') }}">
-                            <img src="images/Logo with slogan in red (1).png" alt="Small's Transportation Logo"
-                                class="img-fluid" style="max-width: 150px; height: auto;">
+                            <img src="images\small orgn.png" alt="Small's Transportation Logo" class="img-fluid"
+                                style="max-width: 300px; height: auto;">
                         </a>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
@@ -157,11 +157,10 @@
                 <div class="col-md-5">
                     <div class="p-4 mb-3 bg-white">
                         <h3 class="h5 text-black mb-3">Contact Us</h3>
-                        <p><strong>Email:</strong> <a
-                                href="mailto:smallstransportationllc@gmail.com">smallstransportationllc@gmail.com</a>
+                        <p><strong>Email:</strong> <a href="mailto:info@smallstrans.com">info@smallstrans.com</a>
                         </p>
+                        <p><strong>Phone:</strong> 304-274-0555</p>
                         <p><strong>Phone:</strong> 304-240-7022</p>
-                        <p><strong>Phone:</strong> 304-782-6650</p>
                     </div>
                     <div class="p-4 mb-3 bg-white">
                         <h3 class="h5 text-black mb-3">More Info</h3>

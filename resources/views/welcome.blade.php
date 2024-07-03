@@ -53,8 +53,8 @@
 
                     <div class="col-11 col-xl-2">
                         <a href="{{ url('/') }}">
-                            <img src="images/Logo with slogan in red (1).png" alt="Small's Transportation Logo"
-                                class="img-fluid" style="max-width: 150px; height: auto;">
+                            <img src="images\small orgn.png" alt="Small's Transportation Logo" class="img-fluid"
+                                style="max-width: 300px; height: auto;">
                         </a>
                     </div>
 
@@ -88,7 +88,7 @@
 
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade"
+    <div class="site-blocks-cover overlay" style="background-image: url(images/bbg.jpg);" data-aos="fade"
         data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
@@ -154,7 +154,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="feature-3 pricing h-100 text-center">
+                <div class="feature-3 pricing h-100 text-center" style="background-color: #04a22b;">
                     <div class="icon">
                         <span class="icon-phone"></span>
                     </div>
@@ -162,9 +162,9 @@
                     <p>Our dedicated support team is available around the clock to assist you with any inquiries or
                         issues.</p>
                     <p>Contact us at:</p>
-                    <p style="color: white; font-weight: bold;">Cell: <a href="tel:+13042407022"
-                            style="color: white; font-weight: bold;">304-240-7022</a><br>
-                        Office: <a href="tel:+13047826650" style="color: white; font-weight: bold;">304-782-6650</a>
+                    <p style="color: white; font-weight: bold;">
+                        Cell: <a href="tel:+13042740555" style="color: white; font-weight: bold;">304-274-0555</a><br>
+                        Office: <a href="tel:+13042407022" style="color: white; font-weight: bold;">304-240-7022</a>
                     </p>
                 </div>
             </div>
@@ -211,7 +211,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images\trucking-image.jpg" alt="Small's Transportation Truck"
+                    <img src="images\Jul_3_2024_14_18_29_1.jpg" alt="Small's Transportation Truck"
                         class="img-fluid rounded shadow mb-4">
                     <div class="card bg-primary text-white">
                         <div class="card-body">
@@ -346,6 +346,39 @@
                     <a href="{{ url('contact') }}" class="btn btn-primary btn-lg btn-block">Apply Now</a>
                 </div>
             </div>
+        </div>
+        <!-- Hiring Owner Operators -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h2 class="text-primary mb-4">Hiring Owner Operators</h2>
+                <p class="lead mb-4">Join our team and experience the benefits of working with a company that values
+                    your expertise and dedication.</p>
+            </div>
+            <div class="col-lg-6 pr-lg-5">
+                <h5 class="mb-3">Why Work With Us?</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-success mr-2"></i>No age restriction on your equipment</li>
+                    <li><i class="fas fa-check text-success mr-2"></i>Weekly settlements</li>
+                    <li><i class="fas fa-check text-success mr-2"></i>Fuel card provided</li>
+                </ul>
+                <p>At Small's Transportation, we understand that owner operators are the backbone of the transportation
+                    industry. We value your independence and provide the support you need to succeed.</p>
+                <p>Whether you're an experienced operator or new to the industry, we offer opportunities that fit your
+                    needs and help you grow your business. Our team is committed to ensuring you have the resources and
+                    support necessary for a successful partnership.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="images\owner operator.jpg" alt="Owner Operator" class="img-fluid rounded shadow mb-4">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Interested in Joining?</h5>
+                        <p class="card-text">If you're ready to join a company that values your expertise and provides
+                            the support you need, we want to hear from you.</p>
+                        <a href="{{ url('contact') }}" class="btn btn-light">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 

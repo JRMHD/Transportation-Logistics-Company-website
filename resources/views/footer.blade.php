@@ -31,9 +31,9 @@
             </div>
             <div class="col-md-3">
                 <h2 class="footer-heading mb-4">Contact Us</h2>
-                <p>Email: smallstransportationllc@gmail.com</p>
+                <p>Email: info@smallstrans.com</p>
+                <p>Phone: 304-274-0555</p>
                 <p>Phone: 304-240-7022</p>
-                <p>Phone: 304-782-6650</p>
             </div>
         </div>
         <div class="row pt-5 mt-5 text-center">

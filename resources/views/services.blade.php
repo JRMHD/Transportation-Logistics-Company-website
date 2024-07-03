@@ -50,8 +50,8 @@
 
                     <div class="col-11 col-xl-2">
                         <a href="{{ url('/') }}">
-                            <img src="images/Logo with slogan in red (1).png" alt="Small's Transportation Logo"
-                                class="img-fluid" style="max-width: 150px; height: auto;">
+                            <img src="images\small orgn.png" alt="Small's Transportation Logo" class="img-fluid"
+                                style="max-width: 300px; height: auto;">
                         </a>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
