@@ -163,7 +163,8 @@
                         issues.</p>
                     <p>Contact us at:</p>
                     <p style="color: white; font-weight: bold;">
-                        Office: <a href="tel:+13042740555" style="color: white; font-weight: bold;">304-274-0555</a><br>
+                        Office: <a href="tel:+13042740555"
+                            style="color: white; font-weight: bold;">304-274-0555</a><br>
                         Cell: <a href="tel:+13042407022" style="color: white; font-weight: bold;">304-240-7022</a>
                     </p>
                 </div>
