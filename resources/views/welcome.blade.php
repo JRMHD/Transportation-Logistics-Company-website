@@ -88,7 +88,7 @@
 
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/bbg.jpg);" data-aos="fade"
+    <div class="site-blocks-cover overlay" style="background-image: url(images/new2.jpg);" data-aos="fade"
         data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
@@ -212,7 +212,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images\Jul_3_2024_14_18_29_1.jpg" alt="Small's Transportation Truck"
+                    <img src="images\new3.jpg" alt="Small's Transportation Truck"
                         class="img-fluid rounded shadow mb-4">
                     <div class="card bg-primary text-white">
                         <div class="card-body">
@@ -369,7 +369,7 @@
                     support necessary for a successful partnership.</p>
             </div>
             <div class="col-lg-6">
-                <img src="images\owner operator.jpg" alt="Owner Operator" class="img-fluid rounded shadow mb-4">
+                <img src="images\new5.jpg" alt="Owner Operator" class="img-fluid rounded shadow mb-4">
                 <div class="card bg-primary text-white">
                     <div class="card-body">
                         <h5 class="card-title">Interested in Joining?</h5>
@@ -434,7 +434,7 @@
         <div class="owl-carousel nonloop-block-13">
             <div>
                 <a href="#" class="unit-1 text-center">
-                    <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+                    <img src="images\new4.jpg" alt="Image" class="img-fluid">
                     <div class="unit-1-text">
                         <h3 class="unit-1-heading">Dry Van Transportation</h3>
                         <p class="px-5">Safe and reliable transportation of goods using dry van trailers across New
